@@ -63,7 +63,7 @@ def is_palindrome(s: str) -> bool:
     Spaces and case should be ignored.
 
     Args:
-        s: Input string
+        s:Input string
 
     Returns:
         True if the string is a palindrome, False otherwise
