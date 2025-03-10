@@ -28,12 +28,17 @@ def count_vowels(s: str) -> int:
     """
     # TODO: Implement this function
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     vowels = "aeiouAEIOU"
     count = 0
     for char in s:
         if char in vowels:
             count += 1
     
+=======
+    vowels = "aieuoAIEUO"
+    count= sum(1 for char in s if char in vowels)
+>>>>>>> Stashed changes
 =======
     vowels = "aieuoAIEUO"
     count= sum(1 for char in s if char in vowels)
