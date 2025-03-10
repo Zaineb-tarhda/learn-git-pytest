@@ -52,8 +52,8 @@ def count_vowels(s: str) -> int:
 =======
     vowels = "aieuoAIEUO"
     count= sum(1 for char in s if char in vowels)
->>>>>>> Stashed changes
-    return count
+    Stashed changes
+return count
 
 
 def is_palindrome(s: str) -> bool:
